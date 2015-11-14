@@ -16,9 +16,9 @@ THREE.HipsterPF = {
     "Color":{type: "f",value:0.5 },
     "Contrast":{type: "f",value:0.5 },
     "Level":{type: "f",value:1.0 },
-    "Effect":{type: "f",value:1.0 },
-    "Type":{type: "i",value:0 }, // Value between 0 to 7
-    "Iterations":{type: "i",value:4 } // Value between 1 to 20
+    "Effect":{type: "f",value:1.0 }, //amount of effect (Dry/Wet)
+    "Type":{type: "i",value:0 }, // Value between 0 and 7
+    "Iterations":{type: "i",value:4 } // Value between 1 and 20
 	},
 
 	vertexShader: [
